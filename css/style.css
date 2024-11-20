@@ -1,0 +1,31 @@
+#Wrapper{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 1fr;
+    grid-template-rows: 10% 10% 35% 35% 10%;
+    height: 135vh;
+    grid-template-areas: 
+    'hd hd hd hd'
+    'nv nv nv nv'
+    'sc sc sc sc'
+    'sc sc sc sc'
+    'ft ft ft ft'
+    ;
+    gap: 10px;
+}
+
+header{
+    grid-area: hd;
+    background-color:#9b59b6;
+}
+
+nav{
+    grid-area: nv;
+}
+
+section{
+    grid-area: sc
+}
+
+footer{
+    grid-area: ft;
+}
