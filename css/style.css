@@ -182,84 +182,16 @@ h2{
 }
 
 #Wrapper2{
-    display: grid;
+    display:grid;
     grid-template-columns: 25% 25% 25% 1fr;
     grid-template-rows: 7% 25% 25% 25% 1fr;
     height: 170vh;
-    grid-template-areas: 
+    grid-template-areas:
     'hd nv nv nv'
-    'sc9 sc9 sc10 sc10'
-    'sc11 sc11 sc12 sc12'
-    'sc13 sc13 sc14 sc14'
+    'sc9 sc9 sc9 sc9'
+    'sc sc sc sc'
+    'sc sc sc sc'
     'ft ft ft ft'
-    ;
+    ; 
     gap: 7px;
-}
-
-#sc9{
-    grid-area: sc9;
-    border-radius: 10px;
-    background-color: #9b59b6;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-section img{
-    width: 150px;
-    height: 150px;
-    align-self: center;
-    border-radius: 200px;
-}
-
-#sc10{
-    grid-area: sc10;
-    border-radius: 10px;
-    background-color: #9b59b6;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
-#sc11{
-    grid-area: sc11;
-    border-radius: 10px;
-    background-color: #9b59b6;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#sc12{
-    grid-area: sc12;
-    border-radius: 10px;
-    background-color: #9b59b6;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#sc13{
-    grid-area: sc13;
-    border-radius: 10px;
-    background-color: #9b59b6;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#sc14{
-    grid-area: sc14;
-    border-radius: 10px;
-    background-color: #9b59b6;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
