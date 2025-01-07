@@ -149,10 +149,6 @@ nav{
     background-repeat: no-repeat;
 }
 
-footer{
-    grid-area: ft;
-    background-color: #9b59b6;
-}
 
 a{
     border: none;
@@ -196,14 +192,8 @@ h2{
     gap: 7px;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 .sc9{
-    background: url() no-repeat center center/cover;
     color: white;
     display: grid;
     place-items: center;
@@ -278,14 +268,106 @@ h2{
     color: white;
 }
 
-footer.ft{
+.ft{
     background-color: #9b59b6;
     color: white;
     text-align: center;
-    padding: 20px 0;
     grid-area: ft;
     border-radius: 10px;
 }
 
+#Wrapper3{
+    display:grid;
+    grid-template-columns: 25% 25% 25% 1fr;
+    grid-template-rows: 8.5% 25% 25% 23.5% 1fr;
+    height: 140vh;
+    grid-template-areas:
+    'hd nv nv nv'
+    'sc9 sc9 sc9 sc9'
+    'sc11 sc12 sc13 sc14'
+    'sc11 sc12 sc13 sc14'
+    'ft ft ft ft'
+    ; 
+    gap: 7px;
+}
+
+#sc11{
+    grid-area: sc11;
+    background-color: #9b59b6;
+    display: flex;
+    justify-content: center;
+    text-align: center
+}
 
 
+
+#sc11:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+#sc12{
+    grid-area: sc12;
+    background-color: #9b59b6;
+    display: flex;
+    justify-content: center;
+    text-align: center
+}
+
+#sc12:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+#sc13{
+    grid-area: sc13;
+    background-color: #9b59b6;
+    display: flex;
+    justify-content: center;
+    text-align: center
+}
+
+#sc13:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+#sc14{
+    grid-area: sc14;
+    background-color: #9b59b6;
+    display: flex;
+    justify-content: center;
+    text-align: center
+}
+
+#sc14:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.buy-button {
+    
+    padding: 10px 20px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    display: block;
+    margin: auto;
+}
+
+
+.price {
+    font-size: 1.5em;
+    color: #fff;
+    margin-bottom: 15px;
+  }
+
+.bok-content img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; 
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+}
