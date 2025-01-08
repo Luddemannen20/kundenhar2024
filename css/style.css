@@ -50,6 +50,12 @@ nav{
     grid-area: sc0;
     background-color: #9b59b6;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#genrer{
+    text-align: center;
 }
 
 #sc1{
@@ -298,12 +304,14 @@ h2{
     background-color: #9b59b6;
     display: flex;
     justify-content: center;
-    text-align: center
+    text-align: center;
+    border-radius: 4px;
 }
 
 #sc11:hover{
     transform: translateY(-10px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    background-color:#9b31c5
 }
 
 #sc12{
@@ -311,12 +319,14 @@ h2{
     background-color: #9b59b6;
     display: flex;
     justify-content: center;
-    text-align: center
+    text-align: center;
+    border-radius: 4px;
 }
 
 #sc12:hover{
     transform: translateY(-10px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    background-color:#9b31c5
 }
 
 #sc13{
@@ -324,12 +334,14 @@ h2{
     background-color: #9b59b6;
     display: flex;
     justify-content: center;
-    text-align: center
+    text-align: center;
+    border-radius: 4px;
 }
 
 #sc13:hover{
     transform: translateY(-10px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    background-color:#9b31c5
 }
 
 #sc14{
@@ -337,12 +349,14 @@ h2{
     background-color: #9b59b6;
     display: flex;
     justify-content: center;
-    text-align: center
+    text-align: center;
+    border-radius: 4px;
 }
 
 #sc14:hover{
     transform: translateY(-10px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    background-color:#9b31c5
 }
 
 #sc15{
@@ -350,12 +364,14 @@ h2{
     background-color: #9b59b6;
     display: flex;
     justify-content: center;
-    text-align: center
+    text-align: center;
+    border-radius: 4px;
 }
 
 #sc15:hover{
     transform: translateY(-10px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    background-color:#9b31c5
 }
 
 #sc16{
@@ -363,12 +379,14 @@ h2{
     background-color: #9b59b6;
     display: flex;
     justify-content: center;
-    text-align: center
+    text-align: center;
+    border-radius: 4px;
 }
 
 #sc16:hover{
     transform: translateY(-10px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    background-color:#9b31c5
 }
 
 #sc17{
@@ -376,12 +394,14 @@ h2{
     background-color: #9b59b6;
     display: flex;
     justify-content: center;
-    text-align: center
+    text-align: center;
+    border-radius: 4px;
 }
 
 #sc17:hover{
     transform: translateY(-10px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    background-color:#9b31c5
 }
 
 #sc18{
@@ -389,12 +409,14 @@ h2{
     background-color: #9b59b6;
     display: flex;
     justify-content: center;
-    text-align: center
+    text-align: center;
+    border-radius: 4px;
 }
 
 #sc18:hover{
     transform: translateY(-10px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    background-color:#9b31c5
 }
 
 .buy-button {
@@ -419,8 +441,8 @@ h2{
     width: 100%;
     height: 200px;
     object-fit: cover; 
-    border-bottom: 1px solid #ddd;
-    margin-bottom: 15px;
+    border-bottom:  solid #ddd;
+    
 }
 
 .knapp{
